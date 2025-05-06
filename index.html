@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio del Viaje</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+<body>
+  <h1>¡Bienvenido al Viaje!</h1>
+  <p>Prepárate para explorar páginas conectadas de forma misteriosa.</p>
+  <button onclick="comenzarViaje()">Comienza el viaje</button>
+  <script>
+    function comenzarViaje() {
+      const paginas = [
+        "pagina1.html", "pagina2.html", "pagina3.html", "pagina4.html", "pagina5.html", "pagina6.html", "pagina7.html", "pagina8.html", "pagina9.html", "pagina10.html", "pagina11.html", "pagina12.html", "pagina13.html", "pagina14.html", "pagina15.html", "pagina16.html", "pagina17.html", "pagina18.html", "pagina19.html", "pagina20.html"
+      ];
+      const aleatoria = paginas[Math.floor(Math.random() * paginas.length)];
+      window.location.href = aleatoria;
+    }
+  </script>
+</body>
+</html>

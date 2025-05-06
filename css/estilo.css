@@ -1,0 +1,46 @@
+body {
+    background-color: #1b1b1b;
+    color: #f0f0f0;
+    font-family: 'Georgia', serif;
+    margin: 40px;
+    line-height: 1.6;
+    background-image: linear-gradient(to bottom, #1b1b1b, #2b2b2b);
+  }
+  
+  h1 {
+    color: #e63946;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  a {
+    color: #a8dadc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f1faee;
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a4161a;
+  }
+  
